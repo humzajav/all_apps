@@ -1,0 +1,69 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/0e/c5/2e/0ec52e38638f730a8acf6d3417ab9547.jpg");
+    /* background-image: url("https://image.freepik.com/free-photo/black-textured-background_24972-764.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100vw 110vh;
+    overflow: hidden;
+}
+#mainDiv{
+    display: flex;
+}
+#mainDiv div{
+    text-align: center;
+    vertical-align: middle;
+} 
+#mainDiv p{
+    color: black;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+#mainDiv p:hover{
+    cursor: pointer;
+}
+h1{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 250px;
+}
+#emojiDiv{
+    width: 150px;
+    height: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    border: 5px solid white;
+    background-color: yellow;
+    border-radius: 10%;
+}
+#quizDiv{
+    width:150px;
+    height:150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    border: 5px solid white;
+    background-color: yellow;
+    border-radius: 10%;
+}
+#watchDiv{
+    width:150px;
+    height:150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    border: 5px solid white;
+    background-color: yellow;
+    border-radius: 10%;
+}
+#formDiv{
+    width:150px;
+    height:150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    border: 5px solid white;
+    background-color: yellow;
+    border-radius: 10%;
+}

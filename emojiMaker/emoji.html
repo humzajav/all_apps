@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Maker</title>
+    <link href="./emojiDesign.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/09061df4bf.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" style="text-decoration: none;">
+            <h3>Back To Home</h3>
+        </a>
+        <div id="container">
+            <div id="colorDiv">
+                <h4>Select Color</h4>
+                <div id="cesContainer">
+                    <div id="yellow">
+                    </div>
+                    <div id="green">
+                    </div>
+                    <div id="red">
+                    </div>
+                    <i class="fas fa-chevron-right" id="firstRight"></i>
+                </div>
+            </div>
+            <div id="eyesDiv">
+                <h4>Select Eyes</h4>
+                <i class="fas fa-chevron-left" id="left"></i>
+                <i class="fas fa-chevron-right" id="right"></i>
+                <div id="eyesContainer">
+                    <div class="eyesBorder">
+                        <img class="eyes" src="./eyes1.png">
+                    </div>
+                    <div class="eyesBorder">
+                        <img class="eyes" src="./eyes2.png">
+                    </div>
+                    <div class="eyesBorder">
+                        <img class="eyes" src="./eyes3.png">
+                    </div>
+                    <div class="eyesBorder">
+                        <img class="eyes" src="./eyes4.png">
+                    </div>
+                    <div class="eyesBorder">
+                        <img class="eyes" src="./eyes5.png">
+                    </div>
+                </div>
+            </div>
+            <div id="smilesDiv">
+                <h4>Select Smile</h4>
+                <i class="fas fa-chevron-left" id="smileLeft"></i>
+                <div id="smilesContainer">
+                    <div class="smilesBorder">
+                        <img class="smiles" src="./smile1.png">
+                    </div>
+                    <div class="smilesBorder">
+                        <img class="smiles" src="./smile2.png">
+                    </div>
+                    <div class="smilesBorder">
+                        <img class="smiles" src="./smile3.png">
+                    </div>
+                    <div class="smilesBorder">
+                        <img class="smiles" src="./smile4.png">
+                    </div>
+                    <div class="smilesBorder">
+                        <img class="smiles" src="./smile5.png">
+                    </div>
+                </div>
+            </div>
+            <div id="previewDiv">
+                <div id="yellowPreview">
+                </div>
+                <div id="greenPreview">
+                </div>
+                <div id="redPreview">
+                </div>
+                <img class="hide" id="eye1" src="./eyes1.png">
+                <img class="hide" id="eye2" src="./eyes2.png">
+                <img class="hide" id="eye3" src="./eyes3.png">
+                <img class="hide" id="eye4" src="./eyes4.png">
+                <img class="hide" id="eye5" src="./eyes5.png">
+                <img class="smileHide" id="smile1" src="./smile1.png">
+                <img class="smileHide" id="smile2" src="./smile2.png">
+                <img class="smileHide" id="smile3" src="./smile3.png">
+                <img class="smileHide" id="smile4" src="./smile4.png">
+                <img class="smileHide" id="smile5" src="./smile5.png">
+            </div>
+        </div>
+    </header>
+</body>
+<script src="./emojiCode.js"></script>
+
+</html>

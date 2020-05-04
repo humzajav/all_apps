@@ -1,0 +1,284 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/57/0d/fb/570dfb43b892cfa28a6d5fbe907b7a7a.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    overflow: hidden;
+}
+h3{
+    color: white;
+}
+#container{
+    margin-top: 50px;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50px);
+}
+#colorDiv{
+    width: 500px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 5px solid black;
+    background-color: rgb(255, 255, 52);
+    text-align: center;
+}
+h4{
+    font-size: x-large;
+   margin-top: 70px; 
+}
+#cesContainer{
+    display: flex;
+    justify-content: center;
+    margin-left: 110px;
+}
+#yellow{
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 70px;
+}
+#yellow:hover{
+    cursor: pointer;
+}
+#green{
+    width: 70px;
+    height: 70px;
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 70px;
+    margin-left: 10px;
+}
+#green:hover{
+    cursor: pointer;
+}
+#red{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border: 3px solid black;
+    border-radius: 70px;
+    margin-left: 10px;
+}
+#red:hover{
+    cursor: pointer;
+}
+.fa-chevron-left{
+    margin-right: 100px;
+}
+.fa-chevron-left:hover{
+    cursor: pointer;
+}
+.fa-chevron-right{
+    margin-left: 100px;
+}
+.fa-chevron-right:hover{
+    cursor: pointer;
+}
+#previewDiv{
+    width: 500px;
+    height: 300px;
+    margin-left: 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: rgb(4, 55, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#yellowPreview{
+    display: none;
+    position: relative;
+    width: 170px;
+    height: 170px;
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 170px;
+}
+#greenPreview{
+    position: relative;
+    display: none;
+    width: 170px;
+    height: 170px;
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 170px;
+}
+#redPreview{
+    position: relative;
+    display: none;
+    width: 170px;
+    height: 170px;
+    background-color: red;
+    border: 3px solid black;
+    border-radius: 170px;
+}
+#eyesDiv{
+    position: relative;
+    display: none;
+    width: 500px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 5px solid black;
+    background-color: rgb(255, 255, 52);
+    text-align: center;
+}
+#eyesContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -20px;
+    flex-wrap: wrap;
+    width: 440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#eyesContainer > *{
+    margin-top: 10px;
+}
+.eyes{
+    width: 80px;
+    margin-top: 10px;
+}
+.eyesBorder{
+    width: 80px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 15px;
+    border: 2px solid black ;
+    text-align: center;
+    background-color: white;
+}
+.eyesBorder:hover{
+    cursor: pointer;
+}
+#eye1{
+    display: none;
+    margin-top: -30px;
+    width: 150px;
+    position: absolute;
+}
+#eye2{
+    display: none;
+    margin-top: -30px;
+    width: 150px;
+    position: absolute;
+}
+#eye3{
+    display: none;
+    margin-top: -30px;
+    width: 150px;
+    position: absolute;
+}
+#eye4{
+    display: none;
+    margin-top: -30px;
+    width: 150px;
+    position: absolute;
+}
+#eye5{
+    display: none;
+    margin-top: -30px;
+    width: 150px;
+    position: absolute;
+}
+#right{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+#left{
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
+.hide{
+    width: 80px;
+    margin-top: 10px;
+}
+#smilesDiv{
+    position: relative;
+    display: none;
+    width: 500px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 5px solid black;
+    background-color: rgb(255, 255, 52);
+    text-align: center;
+}
+#smilesContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -20px;
+    flex-wrap: wrap;
+    width: 440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* #emojiContainer .eyesBorder {
+  display:none;
+} */
+#smilesContainer > *{
+    margin-top: 10px;
+}
+#smileLeft{
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
+.smiles{
+    width: 80px;
+    margin-top: 10px;
+}
+.smilesBorder{
+    width: 80px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 15px;
+    border: 2px solid black ;
+    text-align: center;
+    background-color: white;
+}
+.smilesBorder:hover{
+    cursor: pointer;
+}
+#smile1{
+    display: none;
+    margin-top: 40px;
+    width: 150px;
+    position: absolute;
+}
+#smile2{
+    display: none;
+    margin-top: 40px;
+    width: 150px;
+    position: absolute;
+}
+#smile3{
+    display: none;
+    margin-top: 40px;
+    width: 150px;
+    position: absolute;
+}
+#smile4{
+    display: none;
+    margin-top: 40px;
+    width: 150px;
+    position: absolute;
+}
+#smile5{
+    display: none;
+    margin-top: 40px;
+    width: 150px;
+    position: absolute;
+}
+.smileHide{
+    width: 80px;
+    margin-top: 10px;
+}
+/* //////////////////////////////////////////////Emoji Maker End////////////////////////////////////////////////// */

@@ -1,0 +1,163 @@
+body {
+    background-color: #222c3a;
+}
+
+h1 {
+    color: #C3073F;
+}
+
+#formSection {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: #16a185;
+    border-radius: 10px;
+}
+
+fieldset {
+    border-radius: 10px;
+    height: 90%;
+    border-color: white;
+    width: 350px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textfields {
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+    height: 25px;
+    outline: none;
+}
+
+.buttons {
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    color: white;
+    background-color: #178572;
+    outline: none;
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+
+.step {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+p {
+    color: white;
+}
+
+legend {
+    color: white;
+}
+
+.previous {
+    float: left;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    color: white;
+    background-color: #178572;
+    outline: none;
+}
+
+.previous:hover {
+    cursor: pointer;
+}
+
+#secondLegend {
+    text-align: center;
+}
+
+#enroll {
+    width: 92%;
+    height: 30px;
+}
+
+.textArea {
+    width: 90%;
+    border-radius: 5px;
+}
+
+#thirdLegend {
+    text-align: right;
+}
+
+#firstStep {
+    color: #178572;
+}
+
+#secondStep {
+    display: none;
+}
+
+#thirdStep {
+    display: none;
+}
+
+.error {
+    margin-top: 4px;
+    color: darkred;
+    font-weight: bolder;
+    display: none;
+}
+
+#formSubmitted {
+    display: none;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    color: white;
+    border-radius: 5px;
+    background-color: #16a185;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#head {
+    padding-top: 5px;
+}
+
+#close {
+    margin-top: -5px;
+}
+
+#enroll {
+    border: none;
+    outline: none;
+}
+
+#messageArea {
+    outline: none;
+}
+
+select {
+    border: 0px;
+    outline: 0px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="./design.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" style="text-decoration: none;">
+            <h3 style="color: white;">Back To Home</h3>
+        </a>
+        <div id="formSection">
+            <form>
+                <fieldset id="firstStep">
+                    <legend>Step 1</legend>
+                    <div class="step">
+                        <p>First Name*</p>
+                        <input id="firstName" type="text" class="textfields">
+                        <p id="first" class="error">Please type your first name</p>
+                        <p id="firstValid" class="error">Name is not valid!</p>
+                        <p>Last Name</p>
+                        <input type="text" class="textfields">
+                        <p>Email*</p>
+                        <input id="emailText" type="email" class="textfields"><br>
+                        <p id="email" class="error">Please type your email</p>
+                        <p id="emailValid" class="error">Email is not valid!</p>
+                        <input type="button" id="button1" class="buttons" name="Next" value="Next">
+                    </div>
+                </fieldset>
+                <fieldset id="secondStep">
+                    <legend id="secondLegend">Step 2</legend>
+                    <div class="step">
+                        <p>Contact*</p>
+                        <input id="contactValid" type="number" class="textfields">
+                        <p id="contact" class="error">Please type your contact</p>
+                        <p>City</p>
+                        <input type="text" class="textfields">
+                        <p>Country*</p>
+                        <input id="countryValid" type="text" class="textfields">
+                        <p id="country" class="error">Please type your country name</p>
+                        <br>
+                        <input type="button" id="previous1" class="previous" name="Next" value="Previous">
+                        <input type="button" id="button2" class="buttons" name="Next" value="Next">
+                    </div>
+                </fieldset>
+                <fieldset id="thirdStep">
+                    <legend id="thirdLegend">Step 3</legend>
+                    <div class="step">
+                        <p>Enrolled Program*</p>
+                        <select id="enroll" class="textfields">
+                            <option class="enroll" value = "" selected hidden>*Select Program*</option>
+                            <option class="enroll" value="react">React Developer</option>
+                            <option class="enroll" value="angular">Angular Developer</option>
+                            <option class="enroll" value="python">Python Developer</option>
+                          </select>
+                        <p class="error" id="option">Please select one of the options</p>
+                        <p>Message*</p>
+                        <textarea id="messageArea" class="textArea" name="message" rows="7" cols="30"></textarea>
+                        <p class="error" id="message">Please give us a message</p>
+                        <input type="button" id="previous2" class="previous" name="Next" value="Previous">
+                        <input type="button" id="submit" class="buttons" name="Submit" value="Submit">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="formSubmitted">
+            <h3 id="head">Form Submitted Successfully</h3>
+            <input type="button" class="buttons" id="close" value="Close">
+        </div>
+    </header>
+</body>
+<script src="./code.js"></script>
+
+</html>
